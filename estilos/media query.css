@@ -32,16 +32,24 @@
     section#login{
         width: 950px;
     }
-    section#login> div#imagen{
-        float: left;
+    section#login> div#imagen{ 
+        float: right;
         width: 50%;
         height: 100%;
 
 
     }
      section#login > div#formulario{
-        float: right;
+        float:left;
         width: 50%;
      }
+
+     div#formulario > h1{
+        font-size: 2.em;
+     }
+     div#formulario >p{
+        font-size: 1.2em;
+     }
+   
     
 }
